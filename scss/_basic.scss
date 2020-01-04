@@ -1,7 +1,0 @@
-h1 {
-    background: purple;
-    &.darken {
-        background: darken(purple, 10%);
-        padding: 25px;
-    }
-}
