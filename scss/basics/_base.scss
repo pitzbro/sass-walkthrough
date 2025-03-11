@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  // background-color: $primary-900;
+}
+
+img {
+  // width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+// .btn {
+//   @include btn;
+//   &-dark {
+//     @include btn("dark");
+//   }
+//   &-rounded {
+//     @include btn("rounded");
+//   }
+// }

@@ -1,13 +1,25 @@
 // Colors
-$clr1: #cf649a;
-$clr2: #4f3a65;
-$clr3: #574f7d;
-$clr4: #95adbe;
-$clr5: #dff0ea;
+
+// primary
+$primary-900: #fff5e4;
+$primary-1000: #ffa725;
+
+// secondary
+$secondary-1000: #6a9c89;
+$secondary-900: #c1d8c3;
+
+$height: height;
 
 // Breakpoints
-$mobile-breakpoint: 560px;
-$narrow-breakpoint: 660px;
-$normal-breakpoint: 960px;
+
+$layout-padding: 20px;
+
+$narrow-breakpoint: 600px;
+$normal-breakpoint: 920px;
+$wide-breakpoint: 1200px;
+
+$narrow-padded: $narrow-breakpoint + 2 * $layout-padding;
+$normal-padded: $normal-breakpoint + 2 * $layout-padding;
+$wide-padded: $wide-breakpoint + 2 * $layout-padding;
 
 //Layout
